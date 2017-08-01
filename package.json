@@ -1,0 +1,35 @@
+{
+  "name": "rest-cucumberjs-automated-test-script",
+  "version": "0.1.0",
+  "description": "Selenium Cucumber-JS and BrowserStack Automate Test Script for REST",
+  "repository": {
+    "type": "git",
+    "url": "https://manojshivakumar@bitbucket.org/mobiddiction_jira/rest-findmembernumberautomatedtest.git"
+  },
+  "scripts": {
+    "test": "npm run single && npm run login && npm run parallel",
+    "single": "CONFIG_FILE=single ./node_modules/cucumber/bin/cucumber.js features/sms.feature",
+    "parallel": "CONFIG_FILE=parallel ./scripts/cucumber-runner.js features/single.feature",
+    "login": "CONFIG_FILE=single node_modules/cucumber/bin/cucumber.js features/login.feature"
+  },
+  "devDependencies": {
+    "cucumber": "*",
+    "cucumber-assert": "*",
+    "selenium-webdriver": "^2.53.2"
+  },
+  "dependencies": {
+    "browserstack-local": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/browserstack/cucumber-js-browserstack/issues"
+  },
+  "keywords": [
+    "REST",
+    "CucumberJS",
+    "Automated",
+    "Test",
+    "Script"
+  ],
+  "author": "Manoj Shivakumar",
+  "license": "ISC"
+}
