@@ -1,7 +1,7 @@
 # calabash
 
 •	Introduction
-This document outlines the tools and software’s used to achieve automated testing process for any web projects that is built at Mobiddiction Sydney. This process consists of two main tools which is cucumberJS and BrowserStack.
+This process consists of two main tools which is cucumberJS and BrowserStack.
 Cucumber is a tool for running automated tests written in plain language. Because they're written in plain language, they can be read by anyone on your team. Because they can be read by anyone, you can use them to help improve communication, collaboration and trust on your team. Cucumber.js is the JavaScript implementation of Cucumber and runs on both Node.js (4 and above) and modern web browsers.
 BrowserStack supports Selenium automated tests using Cucumber JS, and running your tests on our cloud setup is simple and straightforward. 
 There are few pre-requisites that would need to be installed to help cucumber and browserstack integrate seamlessly for the automated testing to run successfully. Please check the Setup section for more details.
